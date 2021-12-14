@@ -1,0 +1,57 @@
+{
+	"ImportPath": "github.com/largbae/radoshttpd",
+	"GoVersion": "go1.13",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./wuzei/"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/inject",
+			"Comment": "v1.0-rc1-4-g4b81725",
+			"Rev": "4b8172520a03fa190f427bbd284db01b459bfce7"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/martini",
+			"Comment": "v1.0-56-g819aca5",
+			"Rev": "819aca59fdc412028cc5348ff3d16be2715d33cf"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache/consistenthash",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache/groupcachepb",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache/lru",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/groupcache/singleflight",
+			"Rev": "604ed5785183e59ae2789449d89e73f3a2a77987"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "c22ae3cf020a21ebb7ae566dccbe90fc8ea4f9ea"
+		},
+		{
+			"ImportPath": "github.com/hydrogen18/stoppableListener",
+			"Rev": "2eebd04b47ff393f4bc50b7fcacf8f048994c6fd"
+		},
+		{
+			"ImportPath": "github.com/largbae/wugui",
+			"Rev": "8d727dcf99108b50991c072665756cf7afa15b9f"
+		},
+		{
+			"ImportPath": "github.com/wenjianhn/chunkaligned",
+			"Comment": "v0.1-5-g91982b0",
+			"Rev": "91982b0e0a220f8e4f33acf8c224b941d6057e80"
+		}
+	]
+}

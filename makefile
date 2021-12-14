@@ -1,6 +1,6 @@
 .PHONY:wuzei
 
-GOPATH = $(PWD)/build:$(PWD)/Godeps/_workspace
+GOPATH = $(PWD)/build
 export GOPATH
 URL = github.com/largbae
 REPO = radoshttpd
@@ -11,6 +11,7 @@ PIDPATH=$$DESTDIR/var/run/wuzei
 wuzei:
 	@[ -d $(URLPATH) ] || mkdir -p $(URLPATH)
 	@ln -nsf $(PWD) $(URLPATH)/$(REPO)
+	godep restore
 	go install $(URL)/$(REPO)/wuzei
 
 install:
