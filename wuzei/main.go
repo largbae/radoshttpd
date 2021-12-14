@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/codegangsta/martini"
-	"github.com/thesues/radoshttpd/rados"
-	"github.com/thesues/radoshttpd/nettimeout"
+	"github.com/largbae/radoshttpd/rados"
+	"github.com/largbae/radoshttpd/nettimeout"
 	"io"
 	"log"
 	"net/http"
@@ -27,8 +27,8 @@ import (
 	"crypto/sha1"
 	"encoding/base64"
 	"bufio"
-	"bitbucket.org/wenjianhn/chunkaligned"
-	"bitbucket.org/wenjianhn/wugui"
+	"github.com/wenjianhn/chunkaligned"
+	"github.com/largbae/wugui"
 )
 
 var (

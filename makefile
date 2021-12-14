@@ -2,7 +2,7 @@
 
 GOPATH = $(PWD)/build:$(PWD)/Godeps/_workspace
 export GOPATH
-URL = github.com/thesues
+URL = github.com/largbae
 REPO = radoshttpd
 URLPATH = $(PWD)/build/src/$(URL)
 LOGPATH=$$DESTDIR/var/log/wuzei
